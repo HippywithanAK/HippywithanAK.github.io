@@ -1,14 +1,7 @@
-h1 {
-    text-align: center;
-}
-
-h2 {
-    text-align: center;
-}
-
-.heading {
+header {
     font-weight: bold;
     text-decoration: underline;
+    text-align: center;
 }
 nav {
     position: sticky;
