@@ -4,6 +4,6 @@ header {
     text-align: center;
 }
 nav {
-    position: sticky;
+    position: fixed;
 
 }
