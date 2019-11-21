@@ -3,9 +3,16 @@ header {
     text-decoration: underline;
     text-align: center;
 }
-nav {
-    position: fixed;
+.link-list {
+    border-style: solid;
     border-style: solid;
     border: rgb(32, 30, 187);
-    border-width: 3px;
+    border-width: 10px;
+}
+nav {
+    position: absolute;
+}
+
+h3 {
+    text-decoration: underline;
 }
