@@ -1,10 +1,55 @@
+<!DOCTYPE html>
 <!--Blog Page-->
+<!--
+-Set up a basic HTML page with the appropriate tags (html, head, title, etc.)
+
+-Add paragraphs, headings, links, images, lists, and/or tables
+
+-Divide content on a page using divs and spans
+
+-Link an external stylesheet to an html document
+
+-Position elements using CSS
+
+-Modify element style (size, color, etc) using CSS
+
+-Compare and use classes and ids to manipulate elements-->
+<!--Start html-->
 <html>
+  <!--Include head. Give blog Title and other relevant meta-data-->>
   <head>
     <title>Richard's Blog</title>
+  </head>
+  <!--Include Body-->
   <body>
-    <h1>Kia ora Taiao! (Hello World!)</h1> 
-    <p> This is the beginning of my website home page.</p>
-    <p> It will eventually contain a list of links to all my blogs. </p>
+    <!--Anchor for home links-->>
+    <a name="home"></a>
+    <!--Include header-->>
+    <header>
+      <!--Home page title-->>
+      <h1 class="heading" id="title">Richard's Blog Site</h1> 
+      <!--Subtitle-->>
+      <h2> A hub of learning for my Dev Acadamy journey</h2>
+    </header>  
+    <article class="intro" id="home-intro">
+      <h3 class="heading" id="aims"> Aims for this blog</h3>
+      <p class="home-info" id="aims-info">This blog should serve as a place to practice and implement the skills I learn while at Dev Academy.<br/>
+      I should like to use it as a record of my learning and will aim to keep a journal, where I shall make daily entries. Here I will lay out the aims for my day and reflect on my progress when I knock off.<br/>
+      I would also like to have it serve as a sort of repository for learning materials, cheatsheets, flowcharts, video tutorials and the like.</p>
+    </article>  
+    
+    <nav> 
+      <h3 id="nav-title">Contents<h3>
+      <ul>
+        <li><a href="home" alt="Take me home">Home</a>></li>
+        <li><a>Blogs</a>></li>
+        <li><a>Resources</a>></li>
+        <li><a>About</a>></li>
+      </ul>
+    </nav>
   </body>
+  <footer>
+
+  </footer>
+  >
 </html>
