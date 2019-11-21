@@ -10,7 +10,7 @@ header {
     border-width: 10px;
 }
 nav {
-    position: absolute;
+    position: inline;
 }
 
 h3 {
