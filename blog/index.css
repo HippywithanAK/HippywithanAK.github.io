@@ -5,6 +5,7 @@ header {
 }
 nav {
     position: fixed;
+    border-style: solid;
     border: rgb(32, 30, 187);
     border-width: 3px;
 }
