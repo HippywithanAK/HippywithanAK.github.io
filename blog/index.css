@@ -1,18 +1,36 @@
 header {
+    padding-top: 5em;
+    padding-bottom: 0em;
     font-weight: bold;
     text-decoration: underline;
     text-align: center;
 }
-.link-list {
+#nav-bar {
+    width: 10em;
     border-style: solid;
-    border-style: solid;
-    border: rgb(32, 30, 187);
-    border-width: 10px;
+    border-color: rgb(32, 30, 187);
+    border-width: 5px;
+}
+#nav-title {
+    text-align: center;
 }
 nav {
-    position: inline;
+    float: left;;
 }
 
 h3 {
     text-decoration: underline;
+}
+
+main {
+    position: inline;
+    padding-left: 20em;
+}
+
+#blog-links {
+    text-align: center;
+}
+
+#blog {
+    display: inline-block;
 }
