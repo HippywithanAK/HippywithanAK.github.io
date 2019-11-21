@@ -1,0 +1,28 @@
+header {
+    padding-top: 5em;
+    padding-bottom: 0em;
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: center;
+}
+#nav-bar {
+    width: 10em;
+    border-style: solid;
+    border-color: rgb(32, 30, 187);
+    border-width: 5px;
+}
+#nav-title {
+    text-align: center;
+}
+nav {
+    float: left;
+}
+main {
+    padding-left: 20em; 
+}
+article {
+    text-align: justify;
+}
+h3 {
+    text-decoration: underline;
+}
