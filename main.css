@@ -1,48 +1,83 @@
 body {
+    text-align: center;
     background-image: url("./images/code-background.png");
     background-size: auto;
+    font-family: Calistoga;
 }
 
 header {
-    /*add padding to header*/
-    padding-top: 15em;
-    padding-bottom: 0em;
-    /*Add background color to header*/
-    background-color: rgb(5, 97, 158);
+    /*set font-size*/
+    font-size: larger;
+    /*set text-color*/
+    color: rgb(199, 122, 209);
     /*set font to bold*/
     font-weight: bold;
-    /*underline header text*/
-    text-decoration: underline;
+
     /*center header text*/
     text-align: center;
+}
+#title-wrapper {
+        /*add padding to header*/
+        border-style: solid;
+        border-radius: 50%;
+        padding-top: 1em;
+        padding-bottom: 1em;
+        position: relative;
+        top: 5em;
+        display: inline-block;
+        width: 20em;
+        /*underline header text*/
+        text-decoration: underline;
+        text-decoration-color: rgb(240, 166, 250);
+        /*Add background color to header*/
+        background-color: rgb(5, 97, 158);
 }
 
 main {
     /*set background color for main*/
-    background-color: rosybrown;
-}
-#nav-bar {
-    /*set element to display as block*/
-    display: block;
-    /*Set border perameters*/
-    border-style: solid;
-    border-color: rgb(32, 30, 187);
-    border-width: 5px;
-    /*set background color for nav-bar*/
-    background-color: pink;
-}
-#nav-title {
-    text-align: center;
-}
-nav {
-    float: left;
-}
-main {
-    padding-left: 20em; 
+    position: relative;
+    display: inline-block;
+    top: 10em;
+    background-color: rgb(199, 168, 168);
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border-radius: 25%
 }
 article {
     text-align: justify;
+    padding: 1em;
 }
 h3 {
     text-decoration: underline;
+}
+.intro {
+    color: rgb(46, 23, 49);
+    font-size: 1.2em;
+}
+#aims {
+    font-size: 1.6em;
+}
+nav {
+    border-style: solid;
+    border-color: white;
+    width: 50em;
+    display: inline-block;
+    position: relative;
+    top: 12em;
+    background-color: rgb(46, 151, 90);
+}   
+#nav-title {
+    text-align: center;
+    font-size: 1.8em;
+}
+
+.nav-link {
+    font-size: 1.5em;
+    color: purple;
+    text-align: left;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0em;
+    padding-bottom: 1em;
+    display: inline-block;
 }
