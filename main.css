@@ -1,0 +1,40 @@
+body {
+    background-color: rgb(22, 177, 91);
+}
+
+header {
+    /*add padding to header*/
+    padding-top: 5em;
+    padding-bottom: 0em;
+    /*set font to bold*/
+    font-weight: bold;
+    /*underline header text*/
+    text-decoration: underline;
+    /*center header text*/
+    text-align: center;
+}
+#nav-bar {
+    /*set element to display as block*/
+    display: block;
+    /*Set border perameters*/
+    border-style: solid;
+    border-color: rgb(32, 30, 187);
+    border-width: 5px;
+    /*set background color for nav-bar*/
+    background-color: pink;
+}
+#nav-title {
+    text-align: center;
+}
+nav {
+    float: left;
+}
+main {
+    padding-left: 20em; 
+}
+article {
+    text-align: justify;
+}
+h3 {
+    text-decoration: underline;
+}
