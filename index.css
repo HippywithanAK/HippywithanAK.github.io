@@ -36,15 +36,9 @@ header {
     text-decoration-color: rgb(240, 166, 250);
     /*Add background color to header*/
     background-color: rgb(5, 97, 158);
-}
-.title {
-    font-size: 4em;
+    /* add text-outline*/
     text-shadow: -1.5px -1.5px 0 #000, 1.5px -1.5px 0 #000, -1.5px 1.5px 0 #000, 1.5px 1.5px 0 #000;
 }
-.sub-title {
-    text-shadow: -1.5px -1.5px 0 #000, 1.5px -1.5px 0 #000, -1.5px 1.5px 0 #000, 1.5px 1.5px 0 #000;
-}
-
 main {
     /*set background color for main*/
     position: relative;
