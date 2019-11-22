@@ -12,6 +12,7 @@ body {
 }
 
 header {
+    text-decoration
     /*set font-size*/
     font-size: larger;
     /*set text-color*/
@@ -20,30 +21,35 @@ header {
     font-weight: bold;
     /*center header text*/
     text-align: center;
+    /*add padding to header*/
+    border-style: solid;
+    border-radius: 50%;
+    border-color: rgb(44, 255, 62);
+    padding-top: 1em;
+    padding-bottom: 1em;
+    position: relative;
+    top: 0em;
+    display: inline-block;
+    width: 50em;
+    /*underline header text*/
+    text-decoration: underline;
+    text-decoration-color: rgb(240, 166, 250);
+    /*Add background color to header*/
+    background-color: rgb(5, 97, 158);
 }
-title {
-        /*add padding to header*/
-        border-style: solid;
-        border-radius: 50%;
-        border-color: rgb(44, 255, 62);
-        padding-top: 1em;
-        padding-bottom: 1em;
-        position: relative;
-        top: 2em;
-        display: inline-block;
-        width: 20em;
-        /*underline header text*/
-        text-decoration: underline;
-        text-decoration-color: rgb(240, 166, 250);
-        /*Add background color to header*/
-        background-color: rgb(5, 97, 158);
+.title {
+    font-size: 4em;
+    text-shadow: -1.5px -1.5px 0 #000, 1.5px -1.5px 0 #000, -1.5px 1.5px 0 #000, 1.5px 1.5px 0 #000;
+}
+.sub-title {
+    text-shadow: -1.5px -1.5px 0 #000, 1.5px -1.5px 0 #000, -1.5px 1.5px 0 #000, 1.5px 1.5px 0 #000;
 }
 
 main {
     /*set background color for main*/
     position: relative;
     display: inline-block;
-    top: 3em;
+    top: 0.5em;
     background-color: peachpuff;
     padding-top: 1em;
     padding-bottom: 1em;
@@ -72,7 +78,7 @@ nav {
     width: 50em;
     display: inline-block;
     position: relative;
-    top: 4.5em;
+    top: 1em;
     background-color: rgb(46, 151, 90);
 }   
 #nav-title {
