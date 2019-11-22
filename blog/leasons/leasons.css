@@ -13,7 +13,7 @@ header {
 
 article {
     position: relative;
-    top: 20em;
+    top: 25em;
     font-size: 1em;
 }
 
@@ -34,4 +34,16 @@ footer {
     bottom: 0;
     width: 100%;
     text-align: center;
+}
+
+picture {
+    position: fixed;
+    right: 5em;
+    bottom: 10em;
+    z-index: -1;
+}
+
+#margin-diagram {
+    height: auto;
+    width: 25em;
 }
