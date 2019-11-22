@@ -21,7 +21,7 @@ header {
     /*center header text*/
     text-align: center;
 }
-#title-wrapper {
+title {
         /*add padding to header*/
         border-style: solid;
         border-radius: 50%;
