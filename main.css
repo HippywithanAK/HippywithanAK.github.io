@@ -1,17 +1,25 @@
 body {
-    background-color: rgb(22, 177, 91);
+    background-image: url("./images/code-background.png");
+    background-size: auto;
 }
 
 header {
     /*add padding to header*/
-    padding-top: 5em;
+    padding-top: 15em;
     padding-bottom: 0em;
+    /*Add background color to header*/
+    background-color: rgb(5, 97, 158);
     /*set font to bold*/
     font-weight: bold;
     /*underline header text*/
     text-decoration: underline;
     /*center header text*/
     text-align: center;
+}
+
+main {
+    /*set background color for main*/
+    background-color: rosybrown;
 }
 #nav-bar {
     /*set element to display as block*/
