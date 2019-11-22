@@ -39,6 +39,9 @@ header {
     /* add text-outline*/
     text-shadow: -1.5px -1.5px 0 #000, 1.5px -1.5px 0 #000, -1.5px 1.5px 0 #000, 1.5px 1.5px 0 #000;
 }
+.title {
+    font-size: 5em;
+}
 main {
     /*set background color for main*/
     position: relative;
