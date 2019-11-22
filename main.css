@@ -1,7 +1,13 @@
+html {
+    border-style: solid;
+    border-color: purple;
+    border-width: 2.5em;
+}
 body {
+
     text-align: center;
     background-image: url("./images/code-background.png");
-    background-size: auto;
+    background-size: 100%;
     font-family: Calistoga;
 }
 
@@ -12,7 +18,6 @@ header {
     color: rgb(199, 122, 209);
     /*set font to bold*/
     font-weight: bold;
-
     /*center header text*/
     text-align: center;
 }
@@ -20,10 +25,11 @@ header {
         /*add padding to header*/
         border-style: solid;
         border-radius: 50%;
+        border-color: rgb(44, 255, 62);
         padding-top: 1em;
         padding-bottom: 1em;
         position: relative;
-        top: 5em;
+        top: 2em;
         display: inline-block;
         width: 20em;
         /*underline header text*/
@@ -37,11 +43,13 @@ main {
     /*set background color for main*/
     position: relative;
     display: inline-block;
-    top: 10em;
-    background-color: rgb(199, 168, 168);
+    top: 3em;
+    background-color: peachpuff;
     padding-top: 1em;
     padding-bottom: 1em;
-    border-radius: 25%
+    border-style: solid;
+    border-radius: 25%;
+    border-color: rgb(44, 255, 62);
 }
 article {
     text-align: justify;
@@ -51,19 +59,20 @@ h3 {
     text-decoration: underline;
 }
 .intro {
-    color: rgb(46, 23, 49);
+    color: rgb(65, 32, 70);
     font-size: 1.2em;
 }
 #aims {
     font-size: 1.6em;
 }
 nav {
+    color: purple;
     border-style: solid;
     border-color: white;
     width: 50em;
     display: inline-block;
     position: relative;
-    top: 12em;
+    top: 4.5em;
     background-color: rgb(46, 151, 90);
 }   
 #nav-title {
@@ -73,7 +82,6 @@ nav {
 
 .nav-link {
     font-size: 1.5em;
-    color: purple;
     text-align: left;
     padding-left: 1em;
     padding-right: 1em;
