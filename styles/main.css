@@ -3,6 +3,7 @@ body {
 }
 
 header {
+    display:block;
     position: absolute;
     left: 0;
     top: 0;
@@ -16,4 +17,6 @@ h1 {
 h2 {
     font-size: large;
 }
-
+article{
+    color: white;
+}
