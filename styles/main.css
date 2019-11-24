@@ -1,0 +1,19 @@
+body {
+    background-color: black;
+}
+
+header {
+    position: absolute;
+    left: 0;
+    top: 0;
+    text-align: center;
+    background-color: rgb(128, 214, 253);
+}
+h1 {
+    font-size: larger;
+}
+
+h2 {
+    font-size: large;
+}
+
