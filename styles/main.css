@@ -13,6 +13,9 @@ header {
     text-decoration: underline;
 }
 .main {
+    border-style: solid;
+    border-color: rgb(128, 214, 253);
+    border-width: 1em;
     position: relative;
     display:block;
     margin-top: 15em;
