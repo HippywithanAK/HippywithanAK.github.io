@@ -12,6 +12,24 @@ header {
     background-color: rgb(128, 214, 253);
     text-decoration: underline;
 }
+.nav {
+    display:block;
+}
+a{
+    color: inherit;
+}
+.navLink {
+    color: pink;
+    display: inline-block;
+    position: relative;
+    top: 15em;
+}
+#homeLink{
+    margin-left: 25em;
+}
+#blogLink {
+    margin-left: 50em;
+}
 .main {
     border-style: solid;
     border-color: rgb(128, 214, 253);
