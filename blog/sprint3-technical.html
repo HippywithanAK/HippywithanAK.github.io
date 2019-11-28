@@ -1,0 +1,72 @@
+  
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="../styles/main.css">
+        <script src="game.js"></script>
+        <title>Sprint 3 Technical</title>
+    </head>
+    <body>
+        <header id="">
+            <h1>Sprint Three Technical blog</h1>
+            <h2>Javascript, The DOM and Devtools</h2>
+        </header>
+        <div class="main">
+            <article>
+                <h3>Here is an analogy of the differences between HTML and CSS</h3>
+                <p>HTML is like an ingredients list. It tells your browser which things need to appear on a web page. It doesn't tell it what to do with those ingredients though.<P>
+                <p>CSS is like a recipe. It takes the ingredients list and gives directions for how they should be used. Just like a recipe might tell you: the garlic in your ingredients list needs to be crushed and sauted at the start of cooking, CSS might tell the browser: the header element needs to have a blue background, a red border and sit at the top of the page.</p>    
+            </article>
+
+            <article>
+                <h3>Control Flow and Loops</h3>
+                <p>Loops are peices of code that repeate a certain task, untill or while, a condition is met.<P>
+                <p>Control flow describes the order that code is evaluated in.</p>
+                <p>A real life analogy for these concepts, might be cooking. Lets say you are cooking a recipe and it asks you to whisk eggs. It will tell you to do so untill they have reached a certain constency. It won't say "wisk, check consistency, if consistency is good: stop, otherwise: whisk, check consistency" over and over again. It assumes you will understand that you need to do this. A computer does not understand anything, it does what it's told. So you would use a loop to tell it to repeate "whisk, check consistency" untill the consistency is good.</p>
+                <p>This would look something like:</p>
+                <P class="codeBlock">while (eggs.consistency != "soft peaks") {<br/>whisk();<br/>}</P>
+                <P>This will check if the <em>consistency</em> property of object <em>eggs</em> is equal to "soft peaks". If not, it will perform the whisk function. Otherwise it will do nothing.</P>
+                <p>Now normally, we would first need to crack eggs into a bowl before whisking. Control flow makes sure the eggs are cracked befor they are wisked. Lets whisk a whole carton:</p>
+                <p class="codeBlock">for (i=0); i < eggCarton.length; i++){<br/>crackInBowl(eggCarton[i])<br/>}</p>
+                <p>Now to put it all together, making sure our eggs are all cracked into a bowl then whisked.</p>
+                <p class="codeBlock">function wiskEggs () {<br/>for (i=0); i < eggCarton.length; i++){<br/>crackInBowl(eggCarton[i])<br/>}<br/>while (eggs.consistency != "soft peaks") {<br/>whisk();<br/>}<br/>}</p>
+                <p>Code is evaluated left to right, top to bottom. Therefore the eggs cracking 'for' loop will run before the whisking 'while' loop. This gets a little more complicated when nesting loop functions. Basically the outer loop is run once, first, then the inner loop runs once. This repeats untill all itterations are complete.</p>
+            </article>
+
+            <article>
+                <h3>What is the DOM? And how can I interact with it?</h3>
+                <p>The DOM is the "Document Object Model". It is an object model of all the elements that make up a web page:</p>
+                <img src="https://www.w3schools.com/js/pic_htmltree.gif" alt="Diagram of the DOM"/>
+                <p>We can interact with it by using DevTools in chrome (F12). Or we can access it directly using javascript by linking a .js file to a .html, using script tags, in the head element.</p>
+            </article>
+
+            <article>
+                <h3>Accessing Data: Arrays Vs. Objects</h3>
+                <p>The Data in an <strong>array</strong> is accessed by giving it an index value:</p>
+                <p class="codeBlock">var foo = arr[0]</p>
+                <p>will assign the first item in the arr array to the variable, foo</p>
+                <p><br/></p>
+                <p>The data in an <strong>object</strong> is accessed using key : value pairs:</p>
+                <p class="codeBlock">var foo = obj['name']</p>
+                <p>will look for a property with a key of 'name' in the object, obj. It then assigns the corresponding value to the variable, foo.</p>
+            </article>
+
+            <article>
+                <h3>Functions and why they're usefull</h3>
+                <p>A function is code we can run repeatedly. For example: if I want to multiply 100 by 2 and 50 by 2, I can something like</p>
+                <p class="codeBlock"> var doubleHundred = 100 * 2<br/>
+                var doubleFifty = 50 * 2 </p>
+                <p>Or I could right a function that will take any number I like and double it:</p>
+                <p class="codeBlock">function double = (num) {</br>
+                var doubled = num * 2;<br/>
+                return doubled;<br/>
+                }</p>
+                <p>Now if I call double(someNumber) in my code, what ever 2 x someNumber is will be returned.</p>
+            </article>
+            
+        </div>    
+    </body>
+</html>
