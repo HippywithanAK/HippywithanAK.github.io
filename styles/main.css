@@ -12,23 +12,30 @@ header {
     background-color: rgb(128, 214, 253);
     text-decoration: underline;
 }
-.nav {
+nav {
     display:block;
+    position: absolute;
+    width: 100%;
+    top: 11em;
+    
 }
+.container {
+    position: absolute;
+    max-width: 100%;
+    min-width: 1000px;
+    text-align: center;
+}
+
 a{
     color: inherit;
 }
 .navLink {
     color: pink;
     display: inline-block;
-    position: relative;
-    top: 15em;
 }
-#homeLink{
-    margin-left: 25em;
-}
+
 #blogLink {
-    margin-left: 50em;
+    padding-left: 15em;
 }
 .main {
     border-style: solid;
