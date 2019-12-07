@@ -45,6 +45,14 @@ a{
     display:block;
     margin-top: 15em;
 }
+
+#img {
+  display: inline-block;
+  position: relative;
+  left: 20em;
+  top: -5em; 
+}
+
 .codeBlock {
     padding: 0.5em;
     border-style: dashed;
@@ -72,4 +80,9 @@ h3 {
 h4 {
     font-weight: bold;
     font-size: 1.2em;
+}
+
+#mind_as_muscle {
+  max-width: 15em;
+  height: auto;
 }
