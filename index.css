@@ -3,6 +3,7 @@ html {
     border-color: purple;
     border-width: 2.5em;
 }
+
 body {
 
     text-align: center;
@@ -12,7 +13,6 @@ body {
 }
 
 header {
-    text-decoration
     /*set font-size*/
     font-size: larger;
     /*set text-color*/
